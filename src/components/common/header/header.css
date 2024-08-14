@@ -1,0 +1,145 @@
+/*--------head------------*/
+.head {
+  padding: 20px 0;
+  width: 100%;
+}
+.container {
+  max-width: 95%;
+}
+.flexSB {
+  display: flex;
+  justify-content: space-around;
+}
+.logo {
+  max-width: 100%;
+  display: flex;
+  align-items: center;
+  
+}
+.logo img {
+  margin-top: 0px;
+  width: "100px";
+  height: "100px"; 
+ 
+  
+}
+.logo-text h1 {
+  margin: 2px;
+  font-family: "Alegreya SC";
+  font-size: 35px;
+  font-weight: 600;
+  color: #138a03;
+ 
+  
+}
+.logo-text span {
+  margin: 0px;
+  font-size: 20px;
+  font-weight: 600;
+  font-family: "Alegreya";
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #BB490D;
+  
+  
+}
+.social {
+ font-weight: 600;
+ max-width: 100%;
+  
+}
+.social span {
+  margin-right: 50px;  
+  width: "100px";
+font-size: 20px;
+font-weight: 700;
+  color: #138a03;
+ 
+
+}
+
+.link nav{
+
+margin-top: 30px;
+  font-size: 20px;
+  font-weight: 600;
+  
+
+}
+
+
+
+
+
+
+
+
+
+
+.head .icon {
+  margin-left: 10px;
+}
+/*--------head------------*/
+/*--------header------------*/
+header {
+  
+  margin: 0 30px;
+}
+.nav {
+  display: flex !important;
+}
+
+header ul {
+  padding: 30px 20px;
+}
+header ul li a {
+  
+  font-weight: 500;
+  transition: 0.5s;
+}
+header ul li a:hover {
+  color: #1eb2a6;
+}
+.start {
+  background-color: #1eb2a6;
+  padding: 30px 70px;
+  color: #fff;
+  clip-path: polygon(10% 0%, 100% 0, 100% 100%, 0% 100%);
+}
+.toggle {
+  display: none;
+}
+/*--------header------------*/
+@media screen and (max-width: 768px) {
+  .start {
+    clip-path: none;
+  }
+  header {
+    margin: 0;
+    background-color: #1eb2a6;
+    position: relative;
+  }
+  header ul.flexSB {
+    display: none;
+  }
+  header ul li {
+    margin-bottom: 20px;
+  }
+  .toggle {
+    display: block;
+    background: none;
+    color: #fff;
+    font-size: 30px;
+    position: absolute;
+    right: 0;
+    top: -20px;
+  }
+  .mobile-nav {
+    position: absolute;
+    top: 7vh;
+    left: 0;
+    width: 100%;
+    background-color: #1eb2a6;
+  }
+}
