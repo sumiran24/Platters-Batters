@@ -15,13 +15,12 @@ const Head = () => {
                 height: "100px",
               }}
             />
-
             <div className="logo-text">
               <h1>BATTERS MATTER</h1>
               <span>Where Memories Meet the Plate</span>
             </div>
           </div>
-          <div className="social">
+          <div className="contact">
             <span> Contact: </span>
             <i
               className="fas fa-phone "
@@ -30,7 +29,7 @@ const Head = () => {
                 color: "green",
                 fontSize: "15px",
               }}
-            ></i>{" "}
+            ></i>
             +1 (660) 525-6685
             <i
               className="fab fa-whatsapp fa-1x"
@@ -40,29 +39,66 @@ const Head = () => {
                 fontWeight: "bold",
                 fontSize: "20px",
               }}
-            ></i>{" "}
+            ></i>
             +1 (660) 525-6685
-            <span className="link">
-              <div>
-                <nav className="flexSB">
-                  <li>
-                    <Link to="/Menu">Menu</Link>
-                  </li>
-                  <li>
-                    <Link to="/Catering Menu">Catering Menu</Link>
-                  </li>
-                  <li>
-                    <Link to="/Order">Order</Link>
-                  </li>
-                  <li>
-                    <Link to="/FollowUS">FollowUs</Link>
-                  </li>
-                </nav>
-              </div>
-            </span>
+            <div className="social">
+              <span> FollowUs: </span>
+              <i
+                className="fab fa-facebook-f icon"
+                style={{
+                  color: "green",
+                  marginLeft: "20px",
+                  fontWeight: "bold",
+                  fontSize: "20px",
+                }}
+              ></i>
+              <i
+                className="fab fa-instagram icon"
+                style={{
+                  color: "green",
+                  marginLeft: "20px",
+                  fontWeight: "bold",
+                  fontSize: "20px",
+                }}
+              ></i>
+              <i
+                className="fab fa-youtube icon"
+                style={{
+                  color: "green",
+                  marginLeft: "20px",
+                  fontWeight: "bold",
+                  fontSize: "20px",
+                }}
+              ></i>
+              <i
+                className="fab fa-whatsapp"
+                style={{
+                  color: "green",
+                  marginLeft: "20px",
+                  fontWeight: "bold",
+                  fontSize: "20px",
+                }}
+              ></i>
+            </div>
           </div>
         </div>
       </section>
+      <section className="header"></section>
+      <span className="link">
+        <div>
+          <nav className="flexSB">
+            <li>
+              <Link to="/Menu">Menu</Link>
+            </li>
+            <li>
+              <Link to="/Catering Menu">Catering Menu</Link>
+            </li>
+            <li>
+              <Link to="/Order">Order</Link>
+            </li>
+          </nav>
+        </div>
+      </span>
     </>
   );
 };

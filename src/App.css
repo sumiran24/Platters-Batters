@@ -34,12 +34,13 @@ body {
   
 }
 a {
-  text-decoration: none;
+  text-decoration: none;  
   color: #BB490D;
 }
 li {
-  list-style-type: none;
+  list-style-type: none;  
   color: #138a03;
+  
 }
 .row {
   width: 50%;

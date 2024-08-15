@@ -1,25 +1,41 @@
-import React, { useState } from "react"
-import { Link } from "react-router-dom"
-import Head from "./Head"
-import "./header.css"
+import React from "react";
+import Head from "./Head";
+import "./header.css";
 
 const Header = () => {
-  const [click, setClick] = useState(false)
-
   return (
     <>
       <Head />
       <header>
-        <nav className='flexSB'>
-         
-          
-          <button className='toggle' onClick={() => setClick(!click)}>
-            {click ? <i className='fa fa-times'> </i> : <i className='fa fa-bars'></i>}
-          </button>
-        </nav>
+        <section className="header"></section>
+        <span className="container welcome">
+          <div className="welcome">
+            <img
+              src="./images/pot.jpg"
+              alt
+              style={{
+                width: "100px",
+                height: "100px",
+              }}
+            />
+            <div className="welcome-text">
+              <h1>Welcome To Batters Matters</h1>
+              <span>Where Memories Meet the Plate</span>
+            </div>
+            <img
+              src="./images/pot.jpg"
+              alt
+              style={{
+                transform: 'scaleX(-1)',
+                width: "100px",
+                height: "100px",
+              }}
+            />
+          </div>
+        </span>
       </header>
     </>
-  )
-}
+  );
+};
 
-export default Header
+export default Header;
