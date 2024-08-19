@@ -6,24 +6,32 @@
  
 }
 .container {
+  
   max-width: 100%;
 
 }
 
 .flexSB {
   display: flex; 
-  justify-content: space-around;
+  justify-content: space-evenly;
   align-items: center;
+  color: #0d0e0d;
+  font-size: 18px;
+  
  
 }
+
 .logo {
+
   max-width: 100%;
   display: flex;
   align-items: center;
   /* background-color: #e9e6a8;
  border: 2px solid #138a03;  */
+
 }
 .logo img {
+    
   margin-top: 0px;
   width: "100px";
   height: "100px"; 
@@ -65,7 +73,7 @@
 .contact span {
   margin-bottom: 100px; 
   margin-top: 50px;
-  margin: 50px;
+  margin: 30px;
   width: "100px";
 font-size: 20px;
 font-weight: 800;
@@ -75,13 +83,16 @@ color: #BB490D;
 .social span {
   margin: 100px;  
   width: "100px";
-  margin: 50px;
+  margin: 30px;
 font-size: 20px;
 font-weight: 800;
 color: #BB490D;
  }
 
 .link nav{
+   background-image: url('/images/leaf.jpg'); 
+   background-size: cover;/* Cover the entire container */
+  background-position: center; /* Center the image */
   margin-top: 10px;
   margin-left: 25%;
   font-size: 30px;
@@ -89,7 +100,9 @@ color: #BB490D;
   width: 50%;
   border: 2px solid #138a03;   
    /* background-color: #e9e6a8; */
+
   }
+ 
 .header{
     margin: 10px
 }
@@ -98,6 +111,7 @@ color: #BB490D;
 margin-top: 20px;
 font-size: 20px;
 font-weight: 700;
+
 }
 
 .welcome-text h1 {

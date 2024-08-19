@@ -1,38 +1,37 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap");
 * {
   padding: 0;
-  margin: 0;
+  margin: 0%;
   box-sizing: border-box;
-}
-body {
-  font-family: "Georgia";
- 
-top: 0;
-    left: 0;
-    width: '100%';
-    height: '100%';
-  overflow: hidden;
-  background-image: url('/images/food.jpg'); /* Path to your image */
-  background-size: cover; /* Cover the entire container */
-  background-position: center; /* Center the image */
-  /*background-repeat: no-repeat;  Do not repeat the image */
-   position: absolute;
-   object-fit: cover;
-   filter: brightness(25px);
- 
 
   
 }
+
+
+body {
+  font-family: "Georgia";  
+   
+  background-image: url('/images/food.jpg'); /* Path to your image */
+  background-size: cover;/* Cover the entire container */
+  background-position: center; /* Center the image */
+    position: absolute;
+   object-fit: cover;
+   filter: brightness(25px);
+    
+  margin: 10px 300px; 
+
+ }
 /*------------global-----------*/
 .container {
   max-width: 85%;
   margin: 30px;
-  
+ display: grid;
+
 }
 .flexSB {
   display: flex;
   justify-content: space-between;
- 
+
 }
 .icon {
   width: 40px;
@@ -51,7 +50,7 @@ top: 0;
 }
 a {
   text-decoration: none;  
-  color: #BB490D;
+  color: #f3f3ea;
 }
 li {
   list-style-type: none;  
