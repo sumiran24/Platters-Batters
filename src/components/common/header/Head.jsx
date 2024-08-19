@@ -13,6 +13,7 @@ const Head = () => {
               style={{
                 width: "100px",
                 height: "100px",
+
                 mixBlendMode: "multiply",
               }}
             />
@@ -29,8 +30,9 @@ const Head = () => {
                 transform: "scaleX(-1)",
                 color: "green",
                 fontSize: "15px",
+                marginRight: "10px",
               }}
-            ></i>
+            ></i>{" "}
             +1 (660) 525-6685
             <i
               className="fab fa-whatsapp fa-1x"
@@ -39,8 +41,9 @@ const Head = () => {
                 marginLeft: "20px",
                 fontWeight: "bold",
                 fontSize: "20px",
+                marginRight: "10px",
               }}
-            ></i>
+            ></i>{" "}
             +1 (660) 525-6685
             <div className="social">
               <span> FollowUs: </span>

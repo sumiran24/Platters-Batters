@@ -17,6 +17,7 @@ const Header = () => {
                 width: "100px",
                 height: "100px",
                 mixBlendMode: "multiply",
+                fontWeight: "bold",
               }}
             />
             <div className="welcome-text">
@@ -31,6 +32,7 @@ const Header = () => {
                 width: "100px",
                 height: "100px",
                 mixBlendMode: "multiply",
+                fontWeight: "bold",
               }}
             />
           </div>

@@ -5,30 +5,36 @@
  margin-left: 150px;  
   font-size: 35px;
   font-weight: 900;
-  font-family: "Alegreya"; 
-  color: rgba(6, 112, 50, 0.822);
+  font-family: "Georgia"; 
+  color: #138a03;
+   
 }
-
-.hero span {
+.us  {
+  display: flex;
+  flex-wrap: wrap;
+}
+.us span {
  margin-top: 20px;
  margin-bottom: 20px;
  margin-left: 150px;
   width: 85%;
-  font-size: 25px;
-  font-weight: 500;
-  font-family: "Alegreya"; 
+  font-size: 22px;
+  font: weight 600px;
+  font-family: "Georgia"; 
   color:#BB490D;
 }
 @media screen and (max-width: 800px) {
   .margin {
     height: 40vh;
     width: 10%;
+  
   }
   .hero {   
     padding-top: 50%;
     height: 80vh;
     margin: 20px;
     width: 60%;
+
   }
   
 
