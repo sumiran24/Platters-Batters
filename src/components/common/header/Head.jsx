@@ -13,10 +13,11 @@ const Head = () => {
               style={{
                 width: "100px",
                 height: "100px",
+                mixBlendMode: "multiply",
               }}
             />
             <div className="logo-text">
-              <h1>BATTERS MATTER</h1>
+              <h1> BATTERS PLATTERS</h1>
               <span>Where Memories Meet the Plate</span>
             </div>
           </div>

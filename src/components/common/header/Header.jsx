@@ -16,19 +16,21 @@ const Header = () => {
               style={{
                 width: "100px",
                 height: "100px",
+                mixBlendMode: "multiply",
               }}
             />
             <div className="welcome-text">
-              <h1>Welcome To Batters Matters</h1>
+              <h1>Welcome To Batters Platters</h1>
               <span>Where Memories Meet the Plate</span>
             </div>
             <img
               src="./images/pot.jpg"
               alt
               style={{
-                transform: 'scaleX(-1)',
+                transform: "scaleX(-1)",
                 width: "100px",
                 height: "100px",
+                mixBlendMode: "multiply",
               }}
             />
           </div>

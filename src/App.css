@@ -6,12 +6,18 @@
 }
 body {
   font-family: "Alegreya";
-  background-color: #f8f8f8;
+  background-color: #edf1f1;
+ padding: 20px;
+ box-sizing:border-box;
+margin-right: 30px;
+margin-left: 30px;
+
+  
 }
 /*------------global-----------*/
 .container {
   max-width: 85%;
-  margin: auto;
+  margin: 30px;
 }
 .flexSB {
   display: flex;
