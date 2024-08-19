@@ -5,6 +5,7 @@
 }
 .container {
   max-width: 100%;
+
 }
 .flexSB {
   display: flex; 
@@ -16,7 +17,8 @@
   max-width: 100%;
   display: flex;
   align-items: center;
-    
+  background-color: #ece8a7;
+ border: 2px solid #138a03; 
 }
 .logo img {
   margin-top: 0px;
@@ -47,9 +49,10 @@
   
 }
 .contact {
- font-weight: 600;
- max-width: 100%;
-  
+  max-width: 100%;
+  background-color: #ece8a7;
+ border: 2px solid #138a03; 
+
 }
 .social {
  font-weight: 600;
@@ -61,18 +64,18 @@
   margin-top: 50px;
   margin: 50px;
   width: "100px";
-font-size: 17px;
-font-weight: 700;
-  color: #138a03;
+font-size: 20px;
+font-weight: 800;
+color: #BB490D;
  }
 
 .social span {
   margin: 100px;  
   width: "100px";
   margin: 50px;
-font-size: 17px;
-font-weight: 700;
-  color: #138a03;
+font-size: 20px;
+font-weight: 800;
+color: #BB490D;
  }
 
 .link nav{
@@ -81,6 +84,8 @@ font-weight: 700;
   font-size: 30px;
   font-weight: 600;      
   width: 50%;
+  border: 2px solid #138a03;   
+   background-color: #ece8a7;
   }
 .header{
     margin: 10px
@@ -117,10 +122,6 @@ font-weight: 700;
   color: #BB490D; 
   
 }
-
-
-
-
 
 .head .icon {
   margin-left: 10px;
