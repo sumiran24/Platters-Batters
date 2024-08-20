@@ -5,7 +5,7 @@ const Head = () => {
   return (
     <>
       <section className="head">
-        <div className="container flexSB">
+        <div className="logobar">
           <div className="logo">
             <img
               src="./images/hand.jpg"
@@ -88,10 +88,10 @@ const Head = () => {
           </div>
         </div>
       </section>
-      <section className="header"></section>
+    
       <span className="link">
         <div>
-          <nav className="flexSB">
+          <nav className="navbar">
             <li>
               <Link to="/Menu">Menu</Link>
             </li>

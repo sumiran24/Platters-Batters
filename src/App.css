@@ -2,37 +2,30 @@
 * {
   padding: 0;
   margin: 0%;
-  box-sizing: border-box;
-
-  
+  box-sizing: border-box;  
 }
 
 
 body {
-  font-family: "Georgia";  
-   
+  font-family: "Georgia";     
   background-image: url('/images/food.jpg'); /* Path to your image */
   background-size: cover;/* Cover the entire container */
   background-position: center; /* Center the image */
     position: absolute;
    object-fit: cover;
-   filter: brightness(25px);
-    
-  margin: 10px 300px; 
-
+   filter: brightness(25px);    
+margin: 5px 450px;
+width: 1100px;
+ 
  }
 /*------------global-----------*/
 .container {
   max-width: 85%;
-  margin: 30px;
- display: grid;
+  margin: 30px;  
+ display: flex;
 
 }
-.flexSB {
-  display: flex;
-  justify-content: space-between;
 
-}
 .icon {
   width: 40px;
   height: 40px;
@@ -61,10 +54,9 @@ li {
   width: 50%;
 }
 button {
-  padding: 17px 30px;
-  
-  
-  font-weight: 600;
+  padding: 8px 18px;  
+  font-weight: 1000;
+font-family: "Georgia";
   border: none;
   margin: 30px 10px 0 0;
   border-radius: 3px;
@@ -79,7 +71,7 @@ button:hover {
   box-shadow: none;
 }
 .primary-btn {
-  background-color: #1eb2a6;
+  background-color: #138a03;
   color: #fff;
 }
 
@@ -87,15 +79,16 @@ button:hover {
 #heading {
   text-align: center;
   padding: 40px 0;
+  color: #138a03;
 }
 #heading h3 {
   font-weight: 600;
   letter-spacing: 1px;
-  color: #1eb2a6;
-  text-transform: uppercase;
+ color: #138a03;
+ 
 }
 #heading h1 {
-  font-size: 45px;
+  font-size: 50px;
   margin: 20px 0;
   text-transform: capitalize;
   color: #138a03;
@@ -103,8 +96,9 @@ button:hover {
 }
 p {
   line-height: 30px;
-  font-size: 18px;
+  font-size: 10px;
 }
+
 
 .back {
   background-image: url('/images/back.webp');
