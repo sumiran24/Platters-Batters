@@ -2,6 +2,9 @@ import React, { useState } from "react";
 import { Link } from "react-router-dom";
 
 const Head = () => {
+    const openForm = (url) => {
+      window.open(url,'_blank');     
+    };
   return (
     <>
       <section className="head">
@@ -43,63 +46,113 @@ const Head = () => {
                 marginRight: "10px",
               }}
             ></i>
-            
-              +1 (660) 525-6685
-         
+            +1 (660) 525-6685
             <div className="social">
               <span> FollowUs: </span>
-              <i
-                className="fab fa-facebook-f icon"
-                style={{
-                  color: "green",
-                  marginLeft: "20px",
-                  fontWeight: "bold",
-                  fontSize: "20px",
-                }}
-              ></i>
-              <i
-                className="fab fa-instagram icon"
-                style={{
-                  color: "green",
-                  marginLeft: "20px",
-                  fontWeight: "bold",
-                  fontSize: "20px",
-                }}
-              ></i>
-              <i
-                className="fab fa-youtube icon"
-                style={{
-                  color: "green",
-                  marginLeft: "20px",
-                  fontWeight: "bold",
-                  fontSize: "20px",
-                }}
-              ></i>
-              <i
-                className="fab fa-whatsapp"
-                style={{
-                  color: "green",
-                  marginLeft: "20px",
-                  fontWeight: "bold",
-                  fontSize: "20px",
-                }}
-              ></i>
+              <a
+                href="https://www.facebook.com/profile.php?id=61556517751719&mibextid=LQQJ4d"
+                target="_blank"
+                rel="noopener noreferrer"
+                style={{ textDecoration: "none" }}
+              >
+                <i
+                  className="fab fa-facebook-f icon"
+                  style={{
+                    color: "green",
+                    marginLeft: "20px",
+                    fontWeight: "bold",
+                    fontSize: "20px",
+                  }}
+                ></i>
+              </a>
+              <a
+                href="https://www.instagram.com/battersmatter__plattersmatter?igsh=dTEweDc5bXNmbWU1"
+                target="_blank"
+                rel="noopener noreferrer"
+                style={{ textDecoration: "none" }}
+              >
+                <i
+                  className="fab fa-instagram icon"
+                  style={{
+                    color: "green",
+                    marginLeft: "20px",
+                    fontWeight: "bold",
+                    fontSize: "20px",
+                  }}
+                ></i>
+              </a>
+              <a
+                href="https://www.youtube.com/@BattersMatter4u"
+                target="_blank"
+                rel="noopener noreferrer"
+                style={{ textDecoration: "none" }}
+              >
+                <i
+                  className="fab fa-youtube icon"
+                  style={{
+                    color: "green",
+                    marginLeft: "20px",
+                    fontWeight: "bold",
+                    fontSize: "20px",
+                  }}
+                ></i>
+              </a>
+              <a
+                href="https://chat.whatsapp.com/EJY7Aq7cNq29mEaX5vrt6m"
+                target="_blank"
+                rel="noopener noreferrer"
+                style={{ textDecoration: "none" }}
+              >
+                <i
+                  className="fab fa-whatsapp"
+                  style={{
+                    color: "green",
+                    marginLeft: "20px",
+                    fontWeight: "bold",
+                    fontSize: "20px",
+                  }}
+                ></i>
+              </a>
             </div>
           </div>
         </div>
       </section>
-    
+
       <span className="link">
         <div>
-          <nav className="navbar">
+          <nav className="navbar" onClick={openForm}>
             <li>
-              <Link to="/Menu">Menu</Link>
+              <button
+                onClick={() =>
+                  openForm(
+                    "https://docs.google.com/document/d/1KQAubpP4yEYm6BkKTBMRjTOuuk4Ddi73WVPQSEh3E8Y/view"
+                  )
+                }
+              >
+                Menu
+              </button>
             </li>
             <li>
-              <Link to="/Catering Menu">Catering Menu</Link>
+              <button
+                onClick={() =>
+                  openForm(
+                    "https://docs.google.com/document/d/1wBG_DvaVB4fvL_-bEMgZHHblUyj5LhVS_tikxJIzavY/view"
+                  )
+                }
+              >
+                Catering Menu
+              </button>
             </li>
             <li>
-              <Link to="/Order">Order</Link>
+              <button
+                onClick={() =>
+                  openForm(
+                    "https://docs.google.com/forms/d/e/1FAIpQLSdVy9TnQzZNfN3VrMWpUIKEdyaSBXF387epO03OQpcurXTVYQ/viewform"
+                  )
+                }
+              >
+                Order
+              </button>
             </li>
           </nav>
         </div>
