@@ -1,3 +1,43 @@
+.slider-container {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+
+.slider-wrapper {
+  display: flex;
+  width: 400%; /* Adjust this to 100% * number of slides */
+  animation: slide 16s linear infinite; /* Adjust duration to control speed */
+}
+
+.slider-slide {
+  width: 25%; /* Adjust based on the number of slides */
+  box-sizing: border-box;
+}
+
+.slider-slide img {
+  width: 100%;
+  display: block;
+}
+
+@keyframes slide {
+  0% { transform: translateX(0); }
+  25% { transform: translateX(-25%); }
+  50% { transform: translateX(-50%); }
+  75% { transform: translateX(-75%); }
+  100% { transform: translateX(-100%); }
+}
+
+
+
+
+
+
+
+
+
+
+
 .homeAbout #heading {
   text-align: left;
   padding: 0;
@@ -11,6 +51,7 @@
   font-weight: 500;
   font-family: "Dancing Script", cursive;
 }
+
 .homeAbout .left img {
   width: 80%;
   height: 80%;
@@ -24,6 +65,7 @@
     align-items: stretch;
     justify-content: space-evenly;
 }
+
 .items button {
   color: #f3f3ea;
   font-size: 28px;

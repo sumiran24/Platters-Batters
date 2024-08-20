@@ -17,7 +17,23 @@ const HAbout = () => {
               tradition to your events with freshly prepared curries, Biryanis,
               and snacks.
             </span>
-            <img src="./images/platter.jpg" alt="" />
+
+            <div className="slider-container">
+              <div className="slider-wrapper">
+                <div className="slider-slide">
+                  <img src="./images/platter.jpg" alt="Slide 1" />
+                </div>
+                <div className="slider-slide">
+                  <img src="./images/platter3.jpg" alt="Slide 2" />
+                </div>
+                <div className="slider-slide">
+                  <img src="./images/platter1.jpg" alt="Slide 3" />
+                </div>
+                <div className="slider-slide">
+                  <img src="./images/platter2.jpg" alt="Slide 4" />
+                </div>
+              </div>
+            </div>
           </div>
           <div className="right row">
             <div className="items">
