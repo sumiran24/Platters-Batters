@@ -5,6 +5,9 @@ import { homeAbout } from "../../dummydata"
 import Awrapper from "./Awrapper"
 
 const AboutCard = () => {
+    const openForm = (url) => {
+      window.open(url, "_blank");
+    };
   return (
     <>
       <section className="aboutHome">
@@ -19,22 +22,28 @@ const AboutCard = () => {
           </div>
           <div className="right row">
             <div className="items">
-              <button className="order-btn">Order Now</button>
+              <button
+                onClick={() =>
+                  openForm(
+                    "https://docs.google.com/forms/d/e/1FAIpQLSdVy9TnQzZNfN3VrMWpUIKEdyaSBXF387epO03OQpcurXTVYQ/viewform"
+                  )
+                }
+              >
+                Order Now
+              </button>
               <div className="location">
                 <span>Pickup Locations: </span>
-       
-                  <div>Pickup on Tuesday’s and Friday’s</div>
-                  <div>Bretton Woods</div>
-                  <div>Estates of Shaddock</div>
-                  <div>Robinson Ridge</div>
-                  <div>Delivery - MinOrder $50</div>
-                
+
+                <div>Pickup on Tuesday’s and Friday’s</div>
+                <div>Bretton Woods</div>
+                <div>Estates of Shaddock</div>
+                <div>Robinson Ridge</div>
+                <div>Delivery - MinOrder $50</div>
               </div>
             </div>
           </div>
         </div>
       </section>
-   
     </>
   );
 }

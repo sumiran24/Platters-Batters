@@ -6,6 +6,9 @@ import "../allcourses/courses.css";
 import { coursesCard } from "../../dummydata";
 
 const HAbout = () => {
+    const openForm = (url) => {
+      window.open(url, "_blank");
+    };
   return (
     <>
       <section className="homeAbout">
@@ -37,7 +40,15 @@ const HAbout = () => {
           </div>
           <div className="right row">
             <div className="items">
-              <button className="order-btn">Order Now</button>
+              <button
+                onClick={() =>
+                  openForm(
+                    "https://docs.google.com/forms/d/e/1FAIpQLScxS187I8papsg4RBF5uF0HT2hodHahaeH-2-Np3_ChiHDOaA/viewform"
+                  )
+                }
+              >
+                Order Now
+              </button>
               <div className="location">
                 <span>Pickup Locations: </span>
 
