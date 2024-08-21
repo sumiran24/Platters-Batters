@@ -1,9 +1,9 @@
 import React from "react";
 import "../home/HAbout.css";
-import OnlineCourses from "../allcourses/OnlineCourses";
+
 import Heading from "../common/heading/Heading";
-import "../allcourses/courses.css";
-import { coursesCard } from "../../dummydata";
+
+
 
 const HAbout = () => {
     const openForm = (url) => {
